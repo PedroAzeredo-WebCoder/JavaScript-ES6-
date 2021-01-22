@@ -11,6 +11,8 @@ console.log(novaLista);
 const soma = lista.reduce(function(total, proximo){
     return total + proximo;
 });
+//ou 
+const soma = lista.reduce((total, proximo) => total + proximo );
 
 //find
 const busca = lista.find(function(item){
